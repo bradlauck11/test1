@@ -1,0 +1,67 @@
+// Styles for research app
+
+.box {
+  background-color: #002654;
+  margin-bottom: .5em;
+  padding: .5em;
+  position: relative;
+}
+
+.box h1,
+.box h2 {
+  color: white;
+}
+
+.masthead {
+  margin-bottom: 1rem;
+
+  small {
+    font-size: 100%;
+    color: #F36F21;
+  }
+}
+
+.masthead-title a {
+  color: #003882;
+}
+
+.logo {
+  height: 80px;
+  float: left;
+}
+
+.words {
+  margin-left: 6em;
+  margin-top: .5em;
+}
+
+.tagline {
+  color: #F36F21;
+}
+
+main {
+  clear: both;
+}
+
+.page {
+
+  .page-title {
+    border-bottom: 1px solid #999;
+  }
+}
+
+@media (min-width: 400px) {
+  .masthead-title {
+    font-size: 1.6rem;
+  }
+
+  .tagline {
+    font-size: 1.5rem;
+  }
+}
+
+@media (min-width: 654px) {
+  .words {
+    margin-top: 1.5em;
+  }
+}

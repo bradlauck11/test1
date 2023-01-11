@@ -1,0 +1,4 @@
+---
+layout: trauma
+title: Trauma
+---

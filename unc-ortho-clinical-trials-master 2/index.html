@@ -1,0 +1,20 @@
+---
+layout: default
+title: Home
+exclude_from_nav: true
+---
+
+<div class="posts">
+  {% assign areas = site.pages | sort: 'title' %}
+  {% for page in areas %}
+    {% unless page.exclude_from_nav %}
+    <a href="{{ site.baseurl }}{{ page.url }}">
+      <article class="post box">
+        <h1 class="post-title">
+            {{ page.title }}
+        </h1>
+      </article>
+    </a>
+    {% endunless %}
+  {% endfor %}
+</div>

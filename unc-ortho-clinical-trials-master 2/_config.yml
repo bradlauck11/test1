@@ -1,0 +1,29 @@
+# Permalinks
+#
+permalink:           pretty
+
+
+# Setup
+title:               Ortho Research
+tagline:             Clinical Trials
+url:
+# paginate:            1
+baseurl:             ""
+
+# Assets
+#
+# We specify the directory for Jekyll so we can use @imports.
+sass:
+  sass_dir:          _sass
+  style:            :compressed
+
+# About/contact
+author:
+  name:              Scott Bailey - Scholars' Lab, U.Va.
+  url:               http://scholarslab.org/
+  email:             scholarslab@virginia.edu
+
+# Custom vars
+version:             1.0.0
+github:
+  repo:              https://github.com/orthotest/orthotest.github.io
